@@ -67,7 +67,7 @@ gulp.task('profiles:clean', function() {
         {
             node: 'userPermissions',
             child:  'name',
-            patterns: ['Packaging2','ApexRestServices','ViewRoles','InboundMigrationToolsUser','AuthorApex']
+            patterns: ['Packaging2','ApexRestServices','ViewRoles','InboundMigrationToolsUser','AuthorApex','InstallPackaging','ManageAuthProviders']
         }
     ];
     const matchesAny = function(str, patterns) {
